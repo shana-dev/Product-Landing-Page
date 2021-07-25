@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Tea Hut</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="light-background">
+    <!--  Navigation Bar Header  -->
+
+    <header id="header">
+      <input id="nav-toggle" type="checkbox" />
+      <div class="flex-logo">
+        <img id="header-img" src="images/brand-image.svg" alt="brand-image" />
+        <h1 class="brand-name">GreenTeaHut</h1>
+      </div>
+      <nav id="nav-bar">
+        <div class="links-container">
+          <ul>
+            <li>
+              <a class href="#product"
+                ><button class="green-btn home-btn">Home</button></a
+              >
+            </li>
+            <li class="other-link">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="other-link">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="other-link">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <label for="nav-toggle" class="icon-burger"
+        ><i class="fas fa-bars toggle-button"></i
+      ></label>
+    </header>
+
+    <!-- Social Icon Section -->
+
+    <section class="social-icon">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i> <span>Facebook</span></a
+          >
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i> <span>Instagram</span></a
+          >
+        </li>
+
+        <li>
+          <a href="https://twitter.com/?lang=en" target="_blank"
+            ><i class="fab fa-twitter"></i> <span>Twitter</span></a
+          >
+        </li>
+
+        <li>
+          <a href="https://za.pinterest.com/" target="_blank"
+            ><i class="fab fa-pinterest"></i> <span>Pinterest</span></a
+          >
+        </li>
+
+        <li>
+          <a href="https://www.youtube.com/?gl=ZA" target="_blank"
+            ><i class="fab fa-youtube"></i> <span>YouTube</span></a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- Product Section -->
+
+    <section id="product" class="dark-background">
+      <div class="search-box">
+        <input type="text" placeholder="Type to search..." />
+        <button class="search-btn" type="submit">
+          <i class="fa fa-search search-icon"></i>
+        </button>
+      </div>
+      <div class="product-container">
+        <div class="product-left">
+          <h1 class="main-heading">New Matcha Organic Tea</h1>
+          <h3 class="product-sub">Awaken your senses with nature's finest</h3>
+          <p class="paragraph-heading">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+
+          <a
+            href="https://www.takealot.com/?gclid=Cj0KCQiAyJOBBhDCARIsAJG2h5caPCSFTC08P1-7dG3Z8LPgYo6UED0qsCCVA5ecY_WDSSdYENAN5j4aAmC1EALw_wcB&gclsrc=aw.ds"
+            target="_blank"
+          >
+            <button class="green-btn purchase-btn">
+              <span class="uppercase">Buy now</span> for $25
+            </button></a
+          >
+        </div>
+        <div class="product-right">
+          <img src="images/green-tea.png" alt="tea-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="dark-section">
+      <div class="about-container">
+        <div class="about-left">
+          <img src="images/about-image.png" alt="tea-image" />
+        </div>
+        <div class="about-right">
+          <h2 class="sub-heading">About Matcha Organic Tea</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <div class="about-btn">
+            <a
+              class="button-link"
+              href="https://en.wikipedia.org/wiki/Matcha"
+              target="_blank"
+            >
+              <button class="white-btn read-btn">Read More</button></a
+            >
+
+            <a class="button-link" href="#video-section"
+              ><button class="video-btn">Watch Video</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  Service Section -->
+    <section id="service" class="transparent-section">
+      <h2 class="sub-heading service-heading">Our Services</h2>
+      <div class="service-grid-container">
+        <div class="service-card">
+          <span class="grid-image"><i class="fas fa-truck"></i></span>
+          <h3>Free Home Delivery</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button class="white-btn">Read More</button>
+        </div>
+        <div class="service-card">
+          <span class="grid-image"><i class="fas fa-suitcase"></i></span>
+          <h3>30-Day Return</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <button class="white-btn">Read More</button>
+        </div>
+
+        <div class="service-card">
+          <span class="grid-image"><i class="fas fa-dollar-sign"></i></span>
+          <h3>Money Back Guarantee</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <button class="white-btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video-section" class="dark-section">
+      <div class="video-container">
+        <div class="video-left">
+          <h2 class="sub-heading">How to Make an Iced Matcha Latte</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a
+            class="button-link"
+            href="https://pinchofyum.com/iced-matcha-green-tea-latte"
+            target="_blank"
+          >
+            <button class="white-btn">Read More</button></a
+          >
+        </div>
+        <div class="video-right">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/pi4mSJkCuLQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="subscribe" class="transparent-section">
+      <div class="subscribe-container">
+        <div class="subscribe-left">
+          <div class="subscribe-card">
+            <h2 class="sub-heading heading">Subscribe to our Newsletter</h2>
+
+            <p class="subscribe-paragraph">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <form
+              action="https://www.freecodecamp.com/email-submit"
+              id="form"
+              target="_blank"
+            >
+              <input
+                name="email"
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+              <input type="submit" id="submit" class="submit-btn" />
+            </form>
+          </div>
+        </div>
+        <div class="subscribe-right">
+          <img src="images/green-tea.png" alt="tea-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="dark-section">
+      <div class="contact-container">
+        <div class="contact-left">
+          <h2 class="sub-heading heading">Contact Us</h2>
+          <p class="contact-paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna.
+          </p>
+          <div class="contact-details">
+            <a href=""><i class="fas fa-map-marker-alt"></i> </a>
+            <div class="contact-info">
+              <h3 class="contact-sub">Address</h3>
+              <p class="contact-p">
+                200 Main Street, 
+                Cape Town, 
+                South Africa, 8000
+              </p>
+            </div>
+          </div>
+          <div class="contact-details">
+            <a href=""><i class="fas fa-phone-alt"></i></a>
+            <div class="contact-info">
+              <h3 class="contact-sub">Phone</h3>
+              <p class="contact-p">(021)-234-1468</p>
+            </div>
+          </div>
+          <div class="contact-details">
+            <a href=""><i class="far fa-envelope"></i></a>
+            <div class="contact-info">
+              <h3 class="contact-sub">Email</h3>
+              <p class="contact-p">matcha.greenhunt@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+ <form action="" class="contact-form" >
+            <h2>Send a Message</h2>
+            <div class="contact-box">
+              <label id="name-label" for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Enter your name"
+                class="form-control"
+                required
+              />
+              <br>
+               <br>
+              <label id="email-label" for="contact-email">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="user_email"
+                placeholder="Enter your email"
+                class="form-control"
+                required
+              />
+             <br>
+               <br>
+                <label id="message-label" for="message"
+                  >Message</label
+                >
+                <textarea
+                  name="user_comment"
+                  id="message"
+                  cols="40"
+                  rows="10"
+                  placeholder="Enter your message here..."
+                ></textarea>
+
+              
+              </div>
+                 <button class="green-btn send-btn">Send</button>
+            </div>
+
+        
+          </form>
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="footer-brand">
+        <img id="header-img" src="images/brand-image.svg" alt="brand-image" />
+        <h2 class="footer-logo">GreenTeaHunt</h2>
+      </div>
+      <div class="social-icons">
+            <ul>
+            <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook"></i> </a
+          >
+           <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i></a
+          >
+         
+          <a href="https://twitter.com/?lang=en" target="_blank"
+            ><i class="fab fa-twitter"></i></a
+          >
+       
+          <a href="https://za.pinterest.com/" target="_blank"
+            ><i class="fab fa-pinterest"></i></a
+          >
+      
+          <a href="https://www.youtube.com/?gl=ZA" target="_blank"
+            ><i class="fab fa-youtube"></i></a
+          >
+       
+            </ul>
+          </div>
+      <p class="footer-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna.
+      </p>
+
+      <p class="copyright">© Copyright 2021 GreenTeaHunt</p>
+    </footer>
+
+  
+  </body>
+</html>
